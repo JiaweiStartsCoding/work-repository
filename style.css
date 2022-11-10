@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@1,300&family=Kolker+Brush&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Grenze:ital,wght@1,300&family=Kolker+Brush&family=Oswald&family=Rajdhani:wght@300&family=Red+Hat+Display:ital,wght@1,300&family=Saira+Condensed:wght@200&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@1,300&family=Kolker+Brush&family=Oswald:wght@400&family=Stick+No+Bills:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@1,300&family=Kolker+Brush&family=Oswald:wght@200;300&family=Stick+No+Bills:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@1,300&family=Kolker+Brush&family=Oswald&family=Rajdhani:wght@300&family=Red+Hat+Display:ital,wght@1,300&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
 .logo {
-    font-family: 'Covered By Your Grace', cursive;
-    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
     margin-left: 1rem;
 }
 
@@ -18,17 +23,46 @@
 .contact{
     align-self: center;
 }
-.search{
-    align-self: center;
-    font-weight: 200;
-    font-size: .55rem;
+
     
-}
 
 .container {
  font-family: 'Oswald', sans-serif;
+ font-weight: 200;
  font-size: .7rem;
- margin-top: 1.5rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
  display: grid;
- grid-template-columns: 10rem 42rem 2rem 2rem;
+ grid-template-columns: 90% 5% 5%;
+
+}
+
+.python{
+    /* display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 32%;
+    padding: 2rem 0 2rem;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain; */
+
+    display: flex;
+    height:760px;
+    width: 100%;
+    overflow: scroll;
+   padding: 0 0 2rem;
+   overscroll-behavior-inline: contain;
+
+}
+
+.python-4{
+    inline-size: 100%;
+    object-fit: cover;
+    padding: 6rem;
+}
+
+.python img{
+    width: 100%;
+    /* max-width: 26rem; */
+    margin: 0 auto;
+    height: 100%;
 }
