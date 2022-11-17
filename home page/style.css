@@ -14,16 +14,8 @@
 .logo {
     font-family: 'Cinzel', serif;
     font-size: 1.8rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
-
-.bio{
-    align-self: center;
-}
-.contact{
-    align-self: center;
-}
-
     
 
 .container {
@@ -32,9 +24,10 @@
  font-size: .7rem;
  margin-top: 1rem;
  margin-bottom: 1rem;
- display: grid;
- grid-template-columns: 90% 5% 5%;
-
+ display: flex;
+ justify-content: space-between;
+ /* border: 2px solid red; */
+ align-items: baseline;
 }
 
 .python{
@@ -65,4 +58,12 @@
     /* max-width: 26rem; */
     margin: 0 auto;
     height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+.text {
+    width: 35rem;
+    margin: 4rem;
+    font-family: 'Cardo', serif;
+
 }
